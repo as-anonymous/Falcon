@@ -15,6 +15,7 @@ pip install folktables
 ### Datasets
 <!-- You also need to manually install the COMPAS dataset from IBM’s AI Fairness 360 toolkit: https://github.com/Trusted-AI/AIF360. -->
 TravelTime, Employ, Income: Use Folktables: https://github.com/socialfoundations/folktables.
+
 COMPAS: Download and pre-process it using IBM’s AI Fairness 360 toolkit: https://github.com/Trusted-AI/AIF360.
 
 ### Demos
