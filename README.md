@@ -17,11 +17,10 @@ pip install folktables
 
 ### Datasets
 <!-- You also need to manually install the COMPAS dataset from IBM’s AI Fairness 360 toolkit: https://github.com/Trusted-AI/AIF360. -->
-Download and pre-process the datasets using IBM’s AI Fairness 360 toolkit: https://github.com/Trusted-AI/AIF360.
-
-Folktables: https://github.com/socialfoundations/folktables
+TravelTime, Employ, Income: Use Folktables: https://github.com/socialfoundations/folktables.
+COMPAS: Download and pre-process it using IBM’s AI Fairness 360 toolkit: https://github.com/Trusted-AI/AIF360.
 
 ### Demos
-To reproduce our experiments, please use the jupyter notebooks in the ```demos``` directory.
+Please use the jupyter notebooks in the ```demos``` directory to reproduce our experiments.
 * ```Baseline_Comparison.ipynb```:
 * ```Single_Policy_Baseline_Comparison.ipynb```:
