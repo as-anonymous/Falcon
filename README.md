@@ -10,6 +10,7 @@ conda install jupyter
 conda install scikit-learn
 conda install -c conda-forge aif360
 pip install folktables
+pip install mkl
 ```
 
 ### Datasets
