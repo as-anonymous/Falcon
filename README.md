@@ -20,5 +20,5 @@ COMPAS: Download and pre-process it using IBM’s AI Fairness 360 toolkit: https
 
 ### Demos
 Please use the jupyter notebooks in the ```demos``` directory to reproduce our experiments.
-* ```Baseline_Comparison.ipynb```:
-* ```Single_Policy_Baseline_Comparison.ipynb```:
+* ```Baseline_Comparison.ipynb```: Baseline comparison experiments in Section 6.2.
+* ```Single_Policy_Baseline.ipynb```: Simple policy baseline comparison experiments in Section 6.4.
