@@ -7,7 +7,7 @@ Abstract: Biased data can lead to unfair machine learning models, emphasizing th
 Create a conda environment (python=3.8.11) and install with ```setup.sh```.
 
 #### Manual installation
-We can also manually install the packages with pip and conda.
+We can also manually install the following packages with pip and conda.
 ```python
 conda install jupyter
 conda install scikit-learn
