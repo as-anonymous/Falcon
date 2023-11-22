@@ -240,10 +240,10 @@ def load_dataset(dataset_type):
         label = ca_labels.to_numpy().ravel()
         z = white_col + 2 * asian_col
 
-        train_data_num = [2019, 268, 169, 314, 309, 109]
-        test_data_num = [20190, 2680, 1690, 3140, 3090, 1090]
-        un_data_num = [40380, 5360, 3380, 6280, 6180, 2180]
-        val_data_num = [2019, 268, 169, 314, 309, 109]
+        train_data_num = [309, 109, 2019, 268, 169, 314]
+        test_data_num = [3090, 1090, 20190, 2680, 1690, 3140]
+        un_data_num = [6180, 2180, 40380, 5360, 3380, 6280]
+        val_data_num = [309, 109, 2019, 268, 169, 314]
         group_names = ["Others-0", "Others-1", "White-0", "White-1", "Asian-0", "Asian-1"]
 
     elif dataset_type == "COMPAS":
@@ -280,7 +280,7 @@ def model_training(x_train, y_train, x_val, y_val, ml_method):
 
 def random_shuffle(data, label, z, seed):
     """
-        Randomly suffle the dataset.
+        Randomly shuffle the dataset.
     """
     random.seed(seed)
     np.random.seed(seed)
